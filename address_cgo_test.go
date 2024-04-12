@@ -5,7 +5,7 @@ package address
 import (
 	"testing"
 
-	"github.com/filecoin-project/go-crypto"
+	"github.com/jimpick/go-crypto"
 	"github.com/stretchr/testify/assert"
 )
 

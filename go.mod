@@ -1,10 +1,10 @@
-module github.com/filecoin-project/go-address
+module github.com/jimpick/go-address
 
 go 1.21
 
 require (
-	github.com/filecoin-project/go-crypto v0.0.0-20191218222705-effae4ea9f03
 	github.com/ipfs/go-ipld-cbor v0.0.5
+	github.com/jimpick/go-crypto v0.0.0-20240412173705-f3a32b4270da
 	github.com/minio/blake2b-simd v0.0.0-20160723061019-3f5f724cb5b1
 	github.com/multiformats/go-varint v0.0.6
 	github.com/polydawn/refmt v0.0.0-20190807091052-3d65705ee9f1
@@ -15,11 +15,11 @@ require (
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/glifio/go-secp256k1 v0.0.1 // indirect
 	github.com/ipfs/go-block-format v0.0.2 // indirect
 	github.com/ipfs/go-cid v0.0.6 // indirect
 	github.com/ipfs/go-ipfs-util v0.0.1 // indirect
 	github.com/ipfs/go-ipld-format v0.0.1 // indirect
-	github.com/ipsn/go-secp256k1 v0.0.0-20180726113642-9d62b9f0bc52 // indirect
 	github.com/minio/sha256-simd v0.1.1-0.20190913151208-6de447530771 // indirect
 	github.com/mr-tron/base58 v1.1.3 // indirect
 	github.com/multiformats/go-base32 v0.0.3 // indirect
